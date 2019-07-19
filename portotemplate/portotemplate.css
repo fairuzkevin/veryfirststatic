@@ -1,0 +1,152 @@
+/* header stuff */
+.header {
+    overflow: hidden;
+    background-color: #424949;
+    padding: 10px 10px 5px 10px;
+    position: fixed;
+    z-index: 999;
+    
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .header-right {
+    float:right;
+    border-radius: 5px;
+  }
+  
+  .header-right a:hover {
+    background-color: #717D7E;
+    border-radius: 5px;
+  }
+  /* sections */
+  
+  #top {
+    padding-top: 50px;
+  }
+  
+  #home {
+    padding: 40px 30px;
+    margin: 20px 20px 20px 20px;
+    background-color: #AED6F1;
+  }
+  
+  #home img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-width: 200px;
+  }
+  
+  
+  #portofolio {
+    padding: 40px 30px;
+  }
+  
+  #portofolio .row {
+    padding: 10px;
+  }
+  
+  #portofolio img {
+    position: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #portofolio .column {
+    padding: 10px;
+    float: right;
+    width: 50%;
+  }
+  
+  #portofolio .container{
+    position: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #contact {
+    padding: 40px 30px;
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+  }
+  
+  #contact .form {
+    padding: 20px 30px;
+  }
+  
+  #contact img {
+    max-width: 80px;
+  }
+  
+  
+  /* body */
+  body {
+    font-family: 'Lato', serif;
+    background-image: url("https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  }
+  
+  .content {
+    margin: 20px;
+  }
+  
+  hr {
+   margin-bottom: 15px;
+   margin-top: 15px;
+   border-top: 4px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 100px;
+    font-weight: 900;
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-weight: 900;
+    padding-bottom: 5px;
+  }
+  
+  h3, h4, h5, h6 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: light;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .box {
+    box-shadow: 4px 4px 8px 0 #4d4d4d, 0 6px 20px 0 #888;
+    border-radius: 5px;
+  }
+  
+  .own-btn {
+    background-color: #707B7C;
+    color: white;  
+  }
+  
+  @media screen and (max-width: 700px) {
+    #portofolio .column {
+          width: 100%;
+      }
+  }
